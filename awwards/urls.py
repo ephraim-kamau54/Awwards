@@ -25,7 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('awwardshome.urls'), name='home'),
     path('users', include('awwardusers.urls'), name='users'),
-    path('posts', include('awwardposts.urls'), name='posts'),
+    path('posts', include('awardsposts.urls'), name='posts'),
     path('ratings/', include('star_ratings.urls'), name='ratings'),
 ]
 

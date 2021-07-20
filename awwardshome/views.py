@@ -14,10 +14,10 @@ def home(request):
     context={
         'posts' : post,
     }
-    return render(request, 'awardshome/home.html', context)
+    return render(request, 'awwardshome/home.html', context)
 
 def about(request):
-    return render(request, 'awardshome/about.html', {'title':'About'})
+    return render(request, 'awwardshome/about.html', {'title':'About'})
 
 @login_required
 @csrf_protect
@@ -47,4 +47,4 @@ def rating(request, pk):
         'form' : form,
         "ratings": ratings,
     }
-    return render(request, 'awardshome/rating.html', context)
+    return render(request, 'awwardshome/rating.html', context)

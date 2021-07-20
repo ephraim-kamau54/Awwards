@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'awwardshome',
     'awwardusers',
     'crispy_forms',
-    'awwardposts',
+    'awardsposts',
     'star_ratings'
 ]
 
