@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from awwardposts . models import Post, Ratings
-from awwardposts.forms import RatingForm
+from awardsposts . models import Post, Ratings
+from awardsposts.forms import RatingForm
 from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth.decorators import login_required
 
@@ -47,4 +47,4 @@ def rating(request, pk):
         'form' : form,
         "ratings": ratings,
     }
-    return render(request, 'awwardshome/rating.html', context)
+    return render(request, 'awardshome/rating.html', context)

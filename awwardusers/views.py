@@ -5,7 +5,7 @@ from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from .models import Profile
-from awwardposts.models import Post
+from awardsposts.models import Post
 
 # Create your views here.
 @csrf_protect
