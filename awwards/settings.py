@@ -29,7 +29,10 @@ SECRET_KEY = 'tet1ts)g@akqsebjapnn=g%w_jd=p&##@@tm2qkcpf!3_o#kya'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'juniorawards.herokuapp.com',
+    'localhost'
+]
 
 
 # Application definition
@@ -124,7 +127,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
